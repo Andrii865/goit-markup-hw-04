@@ -326,6 +326,7 @@ border-radius: 0 0 4px 4px;
 .team-social-link{
 border-radius: 50%;
 background-color: #4D5AE5;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .icon-svg:hover,
@@ -340,7 +341,7 @@ background-color: #4D5AE5;
       height: 40px;
       border-radius: 50%;
       background-color:#4d5ae5;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
 }
 .svg-team{
    fill: #f4f4fd;
@@ -552,7 +553,7 @@ width: 100%;
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .svg-list-footer{
    display: flex;
