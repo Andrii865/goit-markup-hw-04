@@ -83,9 +83,10 @@ h1, h2, h3, h4, h5, h6, p{
       display: flex;
       align-items: center;
       gap: 40px;
-      margin-right: 332px;
+      
    }
 .nav-link{
+   display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -115,6 +116,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .contacts{
     font-style: normal;
+    margin-left: auto;
    }
    .contacts-list{
       display: flex;
@@ -158,6 +160,8 @@ background-size: cover;
    max-width: 1440px;
    background-repeat: no-repeat;
    background-position: center;
+   margin-right: auto;
+   margin-left: auto;
 }
  .top-tittle{
    display:block;
@@ -212,11 +216,9 @@ width: 1440px;
 height: 344px;
 }
  .item-list{
-   display: inline-block;
-      flex-direction: column;
-      gap: 8px;
+   
       width: 264px;
-      height: 104px;
+      
 }
 .icons-item{
    border: 1px solid #8e8f99;
@@ -243,10 +245,8 @@ height: 344px;
     overflow: hidden;
  }
  .wrapper-list{
-   width: 1440px;
-      height: 344px;
-      margin-top: 120px;
-      margin-bottom: 120px;
+   padding-top: 120px;
+   padding-bottom: 120px;
  }
  .points-list{
    display: flex;
@@ -284,8 +284,7 @@ height: 344px;
    padding-bottom: 120px;
 }
  .container-team{
-   width: 1440px;
-      height: 780px;
+   
 }
  .tittle-team{
    text-transform: capitalize;
@@ -299,20 +298,10 @@ height: 344px;
 }
  .staff-list{
    background-color: #FFFFFF;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   text-align: center;
-   color: #434455;
-border-radius: 0 0 4px 4px;
-   padding: 0px 0px 32px 0px;
+   border-radius: 0 0 4px 4px;
    width: 264px;
-   height: 428px;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background: #fff;
-   gap: 24px;
-   
 }
 .svg-list{
    display: flex;
@@ -342,6 +331,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       border-radius: 50%;
       background-color:#4d5ae5;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+      animation: animate180 3000ms infinite 1000ms;
 }
 .svg-team{
    fill: #f4f4fd;
@@ -350,14 +341,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 .name-container{
    display: inline-flex;
-      align-items: center;
-      flex-direction: column;
-      gap: 8px;
-      width: 232px;
-      height: 56px;
-       padding-bottom: 32px;
-       padding-top: 32px;
-     background: #fff;
+     padding-top: 32px;
+     padding-bottom: 32px;
 }
 .namesy{
    margin-top: 32px;
@@ -367,8 +352,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    display: flex;
    align-items: flex-start;
    gap: 24px;
-   margin-top: 72px;
-   flex-basis: calc((100% - 3 * 24px) / 4)
+   
  }
  .name-list{
     font-weight: 500;
@@ -406,8 +390,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    width: 360px;
-    height: 120px;
+    
     padding-top: 32px;
     padding-bottom: 32px;
  }
@@ -488,11 +471,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 100px 0;
     }
 .container-footer {
-    width: 1158px;
-    height: 112px;
-    padding: 0 15px;
-    margin: 0 auto;
-   display: flex;
+    display: flex;
    align-items: baseline;
 
  }
@@ -511,8 +490,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 .footer-info{
    margin-right: 120px;
-      width: 264px;
-      height: 112px;
+   
 }
  .paragraph-text {
     font-size: 16px;
